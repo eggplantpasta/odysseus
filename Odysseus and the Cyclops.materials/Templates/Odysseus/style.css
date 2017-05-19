@@ -107,6 +107,8 @@ Should we wish to remove the title entirely and allow the cover art alone
 to represent the game, we need only add the line "display: none;" to the
 definition of h1.
 
+Add the following to the HTML to use google fonts (H1 below)
+<link href="https://fonts.googleapis.com/css?family=Caesar+Dressing" rel="stylesheet">
 */
 h1
 {
@@ -151,6 +153,7 @@ the IFID for the game and suggests interpreters for the author to use. */
 
 .playinfo p {
 	font-size: .75em;
+	color: #999;
 }
 
 
@@ -166,7 +169,7 @@ side of the page.
 	width: 13em;
 	float: left;
 	clear: left;
-	text-align: right;
+	text-align: left;
 	margin-top: 2.8em;
 }
 
@@ -184,7 +187,10 @@ surrounding text. In order to get rid of them entirely, we would add
 "display: none;" to our filetype definition.
 */
 
-span.filetype { font-size: .5em; }
+span.filetype {
+	font-size: .5em;
+	display: none;
+}
 
 /*
 Source formatting applies to the source text on generated pages.
