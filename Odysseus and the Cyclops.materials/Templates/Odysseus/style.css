@@ -1,13 +1,13 @@
 /*
 
-Standard CSS file for use with Standard.html and Standard-Source.html. 
+Standard CSS file for use with Standard.html and Standard-Source.html.
 
 */
 
 
 body
 {
-	font-family: Georgia, Palatino, "Times New Roman", Times, serif;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 100%;
 	-webkit-text-size-adjust: none;
 }
@@ -17,9 +17,9 @@ body
 	margin-top: 2em;
 }
 
-/* 
+/*
 Paragraph features defined here apply without distinction to blurb and
-source paragraphs. 
+source paragraphs.
 */
 
 p
@@ -28,9 +28,9 @@ p
 	line-height: 1.4;
 }
 
-/* 
-Here we get rid of underlining for links, and provide a more subdued 
-color scheme than the bright-blue HTML standard. 
+/*
+Here we get rid of underlining for links, and provide a more subdued
+color scheme than the bright-blue HTML standard.
 
 Best color schemes are likely to vary depending on cover art.
 */
@@ -61,11 +61,11 @@ a:hover
 	float: left;
 	clear: left;
 	text-align: right;
-} 
+}
 
-/* 
+/*
 Here we make invisible the one-pixel border that currently goes around
-the cover image. 
+the cover image.
 */
 
 .coverimage a
@@ -76,9 +76,9 @@ the cover image.
 	color: #FFF;
 }
 
-/* 
+/*
 The introduction formatting applies to the title, author name, and release
-number, here presented at the top of the page. 
+number, here presented at the top of the page.
 
 To change the appearance of specific elements, tweak
 
@@ -89,7 +89,7 @@ To change the appearance of specific elements, tweak
 */
 
 .introduction
-{ 
+{
 	padding-top: 2.4em;
 	margin-left: 15.4em;
 	width: 33em;
@@ -97,10 +97,10 @@ To change the appearance of specific elements, tweak
 	text-align: left;
 }
 
-/* 
-These set the sizes for the title (h1) and the author name (h2). 
+/*
+These set the sizes for the title (h1) and the author name (h2).
 
-The ideal font-size for h1 may vary quite a bit depending on how long the 
+The ideal font-size for h1 may vary quite a bit depending on how long the
 game's title is: larger for one-word titles, smaller for longer titles.
 
 Should we wish to remove the title entirely and allow the cover art alone
@@ -108,7 +108,11 @@ to represent the game, we need only add the line "display: none;" to the
 definition of h1.
 
 */
-h1 { font-size: 2em;  }
+h1
+{
+	font-size: 2em;
+	font-family: 'Caesar Dressing', cursive;
+}
 h2 { font-size: 1em; line-height: .25;}
 
 /* The about formatting applies to blurb information. */
@@ -121,10 +125,10 @@ h2 { font-size: 1em; line-height: .25;}
 	text-align: left;
 }
 
-/* 
+/*
 By setting about p and about p + p, we instruct the first paragraph of the
-blurb to be unindented but subsequent paragraphs to be indented a small 
-distance. 
+blurb to be unindented but subsequent paragraphs to be indented a small
+distance.
 */
 
 .about p { margin-bottom: 0; }
@@ -135,7 +139,7 @@ distance.
 	margin-top: 0;
 }
 
-/* 
+/*
 Playinfo affects the paragraph at the bottom of the home-page that supplies
 the IFID for the game and suggests interpreters for the author to use. */
 
@@ -150,11 +154,11 @@ the IFID for the game and suggests interpreters for the author to use. */
 }
 
 
-/* 
+/*
 The links formatting applies to the story file and auxiliary links found
-on the home page, and to the Contents, Next, and Previous links on the 
+on the home page, and to the Contents, Next, and Previous links on the
 source pages. Here we arrange for them to appear in a column at the left
-side of the page. 
+side of the page.
 */
 
 .links
@@ -162,7 +166,7 @@ side of the page.
 	width: 13em;
 	float: left;
 	clear: left;
-	text-align: right; 
+	text-align: right;
 	margin-top: 2.8em;
 }
 
@@ -173,17 +177,17 @@ side of the page.
 	padding: .4 em;
 }
 
-/* 
+/*
 The filetype id applies only to the little (blorb), (pdf), and similar
-denotations found on the links. Here we make these appear smaller than the 
-surrounding text. In order to get rid of them entirely, we would add 
-"display: none;" to our filetype definition. 
-*/ 
+denotations found on the links. Here we make these appear smaller than the
+surrounding text. In order to get rid of them entirely, we would add
+"display: none;" to our filetype definition.
+*/
 
 span.filetype { font-size: .5em; }
 
-/* 
-Source formatting applies to the source text on generated pages. 
+/*
+Source formatting applies to the source text on generated pages.
 */
 
 .source
@@ -224,11 +228,11 @@ Source formatting applies to the source text on generated pages.
 	float: left;
 	clear: left;
 	text-align: right;
-} 
+}
 
-/* 
+/*
 Here we make invisible the one-pixel border that currently goes around
-the cover image. 
+the cover image.
 */
 
 .sourcecoverimage a
@@ -254,18 +258,18 @@ span.substitution
 	color: #69B;
 	font-variant: small-caps;
 }
-	
+
 span.i6code { color: #666; font-family: monospace; }
 
-span.columnhead { 
-	font-style: italic; 
+span.columnhead {
+	font-style: italic;
 	font-size: 1em;
 }
 
 span.heading
 {
 	font-weight: bold;
-} 
+}
 
 .source td
 {
@@ -275,7 +279,7 @@ span.heading
 	font-size: .75em;
 	text-align: left;
 	vertical-align: top;
-} 
+}
 
 /*
 We could alter the following in order to make the footnote links in the source
@@ -289,10 +293,10 @@ span.notecue
 	vertical-align: super;
 }
 
-/* 
+/*
 Here we tell the elements of the table of contents not to be listed with
 bullets because this tends to produce considerable visual clutter especially
-with large project files. 
+with large project files.
 */
 
 .source li
@@ -301,8 +305,8 @@ with large project files.
 	list-style-position: default;
 }
 
-/* 
-Notes applies to footnotes on the source text. 
+/*
+Notes applies to footnotes on the source text.
 */
 
 .notes
@@ -319,11 +323,11 @@ Notes applies to footnotes on the source text.
 
 .notesheading { font-style: italic; }
 
-p.indent0 
-{	margin-bottom: 0;  
+p.indent0
+{	margin-bottom: 0;
 }
 
-p.indent1 
+p.indent1
 {
 	padding-left: 2.8em;
 	text-indent: -.7em;
@@ -331,14 +335,14 @@ p.indent1
 	margin-top: 0;
 }
 
-p.indent2 
-{	margin-bottom: 0; 
+p.indent2
+{	margin-bottom: 0;
 	padding-left: 5.6em;
 	text-indent: -.7em;
 	margin-top: 0;
 }
 
-p.indent3 
+p.indent3
 {
 	padding-left: 8.4em;
 	text-indent: -.7em;
@@ -347,7 +351,7 @@ p.indent3
 }
 
 p.indent4
-{	margin-bottom: 0; 
+{	margin-bottom: 0;
 	padding-left: 11.2em;
 	text-indent: -.7em;
 	margin-top: 0;
@@ -362,7 +366,7 @@ p.indent5
 }
 
 p.indent6
-{	margin-bottom: 0; 
+{	margin-bottom: 0;
 	padding-left: 16.8em;
 	text-indent: -.7em;
 	margin-top: 0;
@@ -378,7 +382,7 @@ p.indent7
 
 
 p.indent8
-{	margin-bottom: 0; 
+{	margin-bottom: 0;
 	padding-left: 22.4em;
 	text-indent: -.7em;
 	margin-top: 0;
@@ -441,7 +445,7 @@ Styles for mobile browsers: change to a one-column layout.
 	{
 		display: none;
 	}
-	
+
 	#gameport
 	{
 		left: 0px;
