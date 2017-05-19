@@ -79,4 +79,4 @@ The field is east of the beach.
 The field is a room. "Across the rugged landscape of tall pines and crested oaks you see patches of wheat and barley growing in irregular patterns, grapevines climb the walls of nearby rockfaces. You know inhabitants of the island are nearby, you see their smoke and hear goats and sheep belating."
 
 
-Release along with a "Odysseus" website, cover art ("Odysseus and the Cyclops."), the introductory booklet, an introductory postcard and an interpreter.
+Release along with a "Odysseus" website, cover art ("Odysseus and the Cyclops."), the introductory booklet, an introductory postcard, the source text and an interpreter.
