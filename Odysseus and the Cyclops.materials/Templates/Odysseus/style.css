@@ -180,6 +180,19 @@ side of the page.
 	padding: .4 em;
 }
 
+/* make the play link stand out by looking like a button */
+.links a[href="play.html"] {
+	display: block;
+  width: 140px;
+  height: 20px;
+  background: #369;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
 /*
 The filetype id applies only to the little (blorb), (pdf), and similar
 denotations found on the links. Here we make these appear smaller than the
