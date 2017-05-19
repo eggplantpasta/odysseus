@@ -121,7 +121,8 @@ Instead of saying no in the presence of a winning Polyphemus:
 
 Instead of saying yes in the presence of a winning Polyphemus:
 	now Polyphemus is nowhere;
-	say "Cyclops: [paragraph break]A fool art thou, stranger! I shall eat you all and take your ship!"
+	say "Cyclops: [paragraph break]A fool art thou, stranger! I shall eat you all and take your ship!";
+	end the story.
 
 Every turn when not talking to or replying to someone during Stuck:
 	if Polyphemus is in the cave:
@@ -141,8 +142,12 @@ When Yum begins:
 	now Polyphemus is unconcious;
 	say "From his pitiless heart he makes no answer, but springs up and puts forth his hands upon your comrades. Two of them at once he seizes and dashes to the earth like puppies, and the brain flows forth upon the ground and wets the earth. Then he cuts them limb from limb and makes ready his supper, and eats them as a mountain-nurtured lion, leaving naught—eats the entrails, and the flesh, and the marrowy bones. And you with wailing held up your hands to Zeus, beholding his cruel deeds; and helplessness possesses you and your comrades souls. But when the Cyclops has filled his huge maw by eating human flesh and thereafter drinking pure milk, he lies down within the cave, stretched out among the sheep. [paragraph break]You form a plan in your great heart to steal near him, and draw your sharp sword from beside your thigh and smite him in the breast, where the midriff holds the liver, feeling for the place with your hand.[paragraph break]Do you carry out this plan? (Yes/No)"
 
+Instead of going south during Yum:
+	say "You are trapped! A towering mass of rock has been set in the doorway."
+
 Instead of saying yes in the presence of an unconcious Polyphemus:
-	say "You smite him in the breast. Blood flows forth upon the ground and wets the earth, but as soon as you do this you realise you shall perish in utter ruin. For you and your comrades are not able to thrust back with your hands from the high door the mighty stone which he had set there."
+	say "You smite him in the breast. Blood flows forth upon the ground and wets the earth, but as soon as you do this you realise you shall perish in utter ruin. For you and your comrades are not able to thrust back with your hands from the high door the mighty stone which he had set there.";
+	end the story.
 
 Instead of saying no in the presence of an unconcious Polyphemus:
 	now Polyphemus is standing;
@@ -153,6 +158,9 @@ Plan is a scene. Plan begins when Yum ends.
 When plan begins:
 	now Polyphemus is nowhere;
 	say "As soon as early Dawn appears, the rosy-fingered, he rekindles the fire and milks his goodly flocks all in turn, and beneath each dam places her young. Then, once he has busily performed his tasks, again he seizes two men at once and makes ready his meal. And when he has made his meal he drives his fat flocks forth from the cave, easily moving away the great door-stone; and then he puts it in place again, as one might set the lid upon a quiver. Then with loud whistling the Cyclops turns his fat flocks toward the mountain.[paragraph break]You are left here, devising evil in the deep of your heart, if in any way you might take vengeance on him, and Athena grant you glory."
+
+Instead of going south during Plan:
+	say "You are trapped! A towering mass of rock has been set in the doorway."
 
 Sharpening is an action applying to two things. Understand "sharpen [something] with [something]" as sharpening.
 A check sharpening rule:
@@ -186,6 +194,9 @@ When Drunk begins:
 	now Polyphemus is in the cave;
 	say "straightway you take the staff and harden it in the blazing fire. Then you lay it carefully away, hiding it beneath the dung, which lies in great heaps throughout the cave. You bade your comrades to cast lots among them, which of them should have the hardihood with you to lift the stake and grind it into his eye when sweet sleep should come upon him. And the lot falls upon those whom you yourself would fain have chosen; four they are, and you are numbered with them as the fifth. At evening he comes, herding his flocks of goodly fleece, and straightway drives into the wide cave his fat flocks one and all, and leaves not one without in the deep court, either from some foreboding or because a god so bade him. Then he lifts on high and sets in place the great door-stone, and sitting down he milks the ewes and bleating goats all in turn, and beneath each dam he places her young. But when he had busily performed his tasks, again he seizes two men at once and makes ready his supper."
 
+Instead of going south during Drunk:
+	say "You are trapped! A towering mass of rock has been set in the doorway."
+
 Every turn during Drunk, say "Your plan won't work unless the cyclops is asleep, maybe you are carrying something you can GIVE TO POLYPHEMUS?"
 
 Giving is an action applying to two things. Understand "give [something] to [something]" as giving.
@@ -210,17 +221,24 @@ Eye is a scene.
 Eye begins when Drunk ends.
 When eye begins, say "Cyclops: [paragraph break]Give it me again with a ready heart, and tell me thy name straightway, that I may give thee a stranger's gift whereat thou mayest be glad. For among the Cyclopes the earth, the giver of grain, bears the rich clusters of wine, and the rain of Zeus gives them increase; but this is a streamlet of ambrosia and nectar. [paragraph break]Do you give the Cyclops your name? (YES/NO)"
 
+Instead of going south during Eye:
+	say "You are trapped! A towering mass of rock has been set in the doorway."
+
 Instead of saying no during Eye:
 	now Polyphemus is unconcious;
 	say "Cyclops, thou askest me of my glorious name, and I will tell it thee; and do thou give me a stranger's gift, even as thou didst promise. Noman is my name, Noman do they call me—my mother and my father, and all my comrades as well."
 
 Instead of saying yes during Eye:
-	say "Of course! My name is Odysseus, What is yours? [paragraph break]Cyclops:[paragraph break]A fool art thou, Odysseus! [paragraph break]Polyphemus picks you up and eats you."
+	say "Of course! My name is Odysseus, What is yours? [paragraph break]Cyclops:[paragraph break]A fool art thou, Odysseus! [paragraph break]Polyphemus picks you up and eats you.";
+	end the story.
 
 Eye ends when Polyphemus is unconcious.
 
 Stab is a scene. Stab begins when Eye ends.
 When stab begins, say "The cyclops lies asleep. now is the time to strike! Perhaps STAB THE CYCLOPS WITH SOMETHING."
+
+Instead of going south during Stab:
+	say "You are trapped! A towering mass of rock has been set in the doorway."
 
 Stabbing is an action applying to two things. Understand "stab [something] with [something]" as stabbing. Understand "stab [something] with the [something]" as stabbing.
 
@@ -239,11 +257,14 @@ Carry out stabbing:
 Definition: a thing is stabbed if the count of stabs of it > 0. A thing has a number called the count of stabs.
 
 Carry out stabbing:
-	if the noun is Polyphemus, say "from his gullet came forth wine and bits of human flesh, and he vomited in his drunken sleep. Then verily I thrust in the stake under the deep ashes until it should grow hot, and heartened all my comrades with cheering words, that I might see no man flinch through fear. But when presently that stake of olive-wood was about to catch fire, green though it was, and began to glow terribly, then verily I drew nigh, bringing the stake from the fire, and my comrades stood round me and a god breathed into us great courage. They took the stake of olive-wood, sharp at the point, and thrust it into his eye, while I, throwing my weight upon it from above, whirled it round, as when a man bores a ship's timber with a drill, while those below keep it spinning with the thong, which they lay hold of by either end, and the drill runs around unceasingly. Even so we took the fiery-pointed stake and whirled it around in his eye, and the blood flowed around the heated thing. And his eyelids wholly and his brows round about did the flame singe as the eyeball burned, and its roots crackled in the fire. And as when a smith dips a great axe or an adze in cold water amid loud hissing to temper it—for therefrom comes the strength of iron—even so did his eye hiss round the stake of olive-wood."
+	if the noun is Polyphemus, say "from his gullet comes forth wine and bits of human flesh, and he vomits in his drunken sleep. Then verily you thrust in the stake under the deep ashes until it should grow hot, and hearten all your comrades with cheering words, that you might see no man flinch through fear. But when presently that stake of olive-wood is about to catch fire, green though it was, it begins to glow terribly, then verily you draw nigh, bringing the stake from the fire, and your comrades stand round you and a god breathes into you great courage. They take the stake of olive-wood, sharp at the point, and thrust it into his eye, while you, throwing your weight upon it from above, whirl it round, as when a man bores a ship's timber with a drill, while those below keep it spinning with the thong, which they lay hold of by either end, and the drill runs around unceasingly. Even so you take the fiery-pointed stake and whirl it around in his eye, and the blood flows around the heated thing. And his eyelids wholly and his brows round about does the flame singe as the eyeball burns, and its roots crackle in the fire. And as when a smith dips a great axe or an adze in cold water amid loud hissing to temper it—for therefrom comes the strength of iron—even so does his eye hiss round the stake of olive-wood."
 
 Stab ends when Polyphemus has been stabbed.
 Escape is a scene. Escape begins when Stab ends.
 When Escape begins, say "Terribly he cries aloud, and the rock rings around; and you, seizing with terror, shrink back, while he wrenches from his eye the stake, all befouled with blood, and flings it from him, wildly waving his arms. Then he calls aloud to the Cyclopes, who dwell round about him in caves among the windy heights, and they hear his cry and come thronging from every side, and standing around the cave ask him what ailed him: `What so sore distress is thine, Polyphemus, that thou criest out thus through the immortal night, and makest us sleepless? Can it be that some mortal man is driving off thy flocks against thy will, or slaying thee thyself by guile or by might?’[paragraph break]Then from out the cave the mighty Polyphemus answered them: `My friends, it is Noman that is slaying me by guile and not by force.’[paragraph break]And they make answer and address him with winged words: `If, then, no man does violence to thee in thy loneliness, sickness which comes from great Zeus thou mayest in no wise escape. Nay, do thou pray to our father, the lord Poseidon.’[paragraph break]So they spoke and went their way; and your heart laughs within you that your name and cunning device has so beguiled. But the Cyclops, groaning and travailing in anguish, gropes with his hands and took away the stone from the door, and himself sat in the doorway with arms outstretched in the hope of catching anyone who sought to go forth with the sheep—so witless, forsooth, he thinks in his heart to find you. But you take counsel how all might be the very best, if you might haply find some way of escape from death for your comrades and for yourself."
+
+Instead of going south during Escape:
+	say "You are trapped! A towering mass of rock has been set in the doorway."
 
 Every turn during Escape, say "You need to find some way to hide to escape the cave, the cyclops will only let his sheep out. Perhaps HIDE UNDER something that will be able to leave the cave, because the cyclops will only be able to feel the top of it."
 
@@ -261,7 +282,10 @@ Carry out hiding:
 Definition: a thing is hidden if the count of hides of it > 0. A thing has a number called the count of hides.
 
 Carry out hiding:
-	if the noun is the sheep, say "As soon as early Dawn appeared, the rosy-fingered, then the males of the flock hastened forth to pasture and the females bleated unmilked about the pens, for their udders were bursting. And their master, distressed with grievous pains, felt along the backs of all the sheep as they stood up before him, but in his folly he marked not this, that my men were bound beneath the breasts of his fleecy sheep. Last of all the flock the ram went forth, burdened with the weight of his fleece and my cunning self. And mighty Polyphemus, as he felt along his back, spoke to him, saying: `Good ram, why pray is it that thou goest forth thus through the cave the last of the flock? Thou hast not heretofore been wont to lag behind the sheep, but wast ever far the first to feed on the tender bloom of the grass, moving with long strides, and ever the first didst reach the streams of the river, and the first didst long to return to the fold at evening. But now thou art last of all. Surely thou art sorrowing for the eye of thy master, which an evil man blinded along with his miserable fellows, when he had overpowered my wits with wine, even Noman, who, I tell thee, has not yet escaped destruction. If only thou couldst feel as I do, and couldst get thee power of speech to tell me where he skulks away from my wrath, then should his brains be dashed on the ground here and there throughout the cave, when I had smitten him, and my heart should be lightened of the woes which good-for-naught Noman has brought me.’ So saying, he sent the ram forth from him. And when we had gone a little way from the cave and the court, I first loosed myself from under the ram and set my comrades free. Speedily then we drove off those long-shanked sheep, rich with fat, turning full often to look about until we came to the ship. And welcome to our dear comrades was the sight of us who had escaped death, but for the others they wept and wailed; yet I would not suffer them to weep, but with a frown forbade each man. Rather I bade them to fling on board with speed the many sheep of goodly fleece, and sail over the salt water. So they went on board straightway and sat down upon the benches, and sitting well in order smote the grey sea with their oars. But when I was as far away as a man's voice carries when he shouts, then I spoke to the Cyclops with mocking words: `Cyclops, that man, it seems, was no weakling, whose comrades thou wast minded to devour by brutal strength in thy hollow cave. Full surely were thy evil deeds to fall on thine own head, thou cruel wretch, who didst not shrink from eating thy guests in thine own house. Therefore has Zeus taken vengeance on thee, and the other gods.’"
+	if the noun is the sheep, say "As soon as early Dawn appears, the rosy-fingered, then the males of the flock haste forth to pasture and the females bleat unmilked about the pens, for their udders are bursting. And their master, distressed with grievous pains, feels along the backs of all the sheep as they stand up before him, but in his folly he marked not this, that your men are bound beneath the breasts of his fleecy sheep. Last of all the flock the ram goes forth, burdened with the weight of his fleece and your cunning self. And mighty Polyphemus, as he feels along his back, speaks to him, saying: [paragraph break]`Good ram, why pray is it that thou goest forth thus through the cave the last of the flock? Thou hast not heretofore been wont to lag behind the sheep, but wast ever far the first to feed on the tender bloom of the grass, moving with long strides, and ever the first didst reach the streams of the river, and the first didst long to return to the fold at evening. But now thou art last of all. Surely thou art sorrowing for the eye of thy master, which an evil man blinded along with his miserable fellows, when he had overpowered my wits with wine, even Noman, who, I tell thee, has not yet escaped destruction. If only thou couldst feel as I do, and couldst get thee power of speech to tell me where he skulks away from my wrath, then should his brains be dashed on the ground here and there throughout the cave, when I had smitten him, and my heart should be lightened of the woes which good-for-naught Noman has brought me.’ So saying, he sends the ram forth from him. And when you had gone a little way from the cave and the court, you first loosen yourself from under the ram and set your comrades free. Speedily then you drive off those long-shanked sheep, rich with fat, turning full often to look about until you come to the ship. And welcome to your dear comrades is the sight of you who had escaped death, but for the others they weep and wail; yet you would not suffer them to weep, but with a frown forbade each man. Rather you bade them to fling on board with speed the many sheep of goodly fleece, and sail over the salt water. So they go on board straightway and sit down upon the benches, and sitting well in order smite the grey sea with their oars. But when you are as far away as a man's voice carries when he shouts, then you speak to the Cyclops with mocking words:[paragraph break] `Cyclops, that man, it seems, was no weakling, whose comrades thou wast minded to devour by brutal strength in thy hollow cave. Full surely were thy evil deeds to fall on thine own head, thou cruel wretch, who didst not shrink from eating thy guests in thine own house. Therefore has Zeus taken vengeance on thee, and the other gods.’";
+	end the story
+
+Escape ends when sheep is hidden.
 
 The field is east of the beach.
 The field is a room. "Across the rugged landscape of tall pines and crested oaks you see patches of wheat and barley growing in irregular patterns, grapevines climb the walls of nearby rockfaces. You know inhabitants of the island are nearby, you see their smoke and hear goats and sheep belating."

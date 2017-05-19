@@ -1,0 +1,113 @@
+
+
+
+You, Odysseus, have beached your ship on a small wooded island. After many weeks of sailing, you and your men are very hungry. You need to find provisions for the rest of the journey back to Greece as you fear you may not have enough.
+
+Odysseus and the Cyclops
+An Interactive Myth by Matt Roper
+Release 1 / Serial number 170519 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+ship
+You are onboard your ship, It is beached on a small wooded island. To the east lies a larger island from there you hear the sound of goats.
+
+>east
+You choose twelve of the best of your commrades to go with you. Together you prepare a boat to row you to the next island you go on your way. With you, you have a goat-skin of the dark, sweet wine, which Maro, son of Euanthes, had given you, the priest of Apollo, the god who used to watch over Ismarus.
+
+beach
+Here on the land's edge hard by the sea you see, to the north, a high cave, roofed over with laurels. There many flocks, sheep and goats alike, would want to sleep. Round about it is a high court built with stones set deep in the earth. the land stretches out to the east with tall pines and high-crested oaks.
+
+There is a flock of goats here.
+
+>north
+
+cave
+You enter the cave and gaze in wonder at all things there.
+
+There are pens that are crowded with lambs and kids. Each kind is penned separately: by themselves the firstlings, by themselves the later lambs, and by themselves again the newly weaned.
+
+Next to the pen is a milk pail swimming with whey.
+
+Next to the walls of the cave there are crates laden with cheeses.
+
+After seeing what is in the cave your commrades suggest to take the cheeses and depart, and thereafter to speedily drive the kids and lambs out from the pens and to the ship. You suggest against this, and instead you wait to see the man himself, and see whether he will give you and your men gifts of entertainment. In the meantime you think it best to explore the things in the cave and eat the food.
+
+>eat cheese
+You encourage your men to feast on the fine food here in the cave. You kindle a fire and take the cheeses and eat, and then sit in the cave and wait for him until he comes back.
+
+(first taking the cheese)
+It is delicious.
+
+>south
+Suddenly, before you can move, a giant Cyclops enters the cave! He bares a mighty weight of dry wood to serve him at suppertime. He flings it down with a crash inside the cave. Upon seeing this you and your men seize with terror and shrink back into a recess of the cave. He drives his fat flocks into the wide cavern-all those that he milks; but the males-the rams and the goats-he leaves outside in the deep court. Then, reaching up, he lifts and sets in place the great door-stone, a mighty rock. Then he sits down and milks the ewes and bleating goats all in turn. Then he curdles half the white milk, gathers it in wicker baskets and lays it away. The other half he sets in vessels so he can have it to take and drink, and that it might serve him for supper. After he busily performs his tasks, he rekindles the fire, and catches sight of you.
+
+Cyclops: "Strangers, who are ye? Whence do ye sail over the watery ways? Is it on some business, or do ye wander at random over the sea, even as pirates, who wander, hazarding their lives and bringing evil to men of other lands?"
+
+The cylops stares at you in an impatient and hungry manner. Perhaps its best you reply to him.
+
+>reply
+(to Polyphemus)
+You clear your throat: 
+
+We, thou must know, are from Troy, Achaeans, driven wandering by all manner of winds over the great gulf of the sea. Seeking our home, we have come by another way, by other paths; so, I ween, Zeus was pleased to devise. And we declare that we are the men of Agamemnon, son of Atreus, whose fame is now mightiest under heaven, so great a city did he sack, and slew many people; but we on our part, thus visiting thee, have come as suppliants to thy knees, in the hope that thou wilt give us entertainment, or in other wise make some present, as is the due of strangers. Nay, mightiest one, reverence the gods; we are thy suppliants; and Zeus is the avenger of suppliants and strangers-Zeus, the strangers" god-who ever attends upon reverend strangers.
+
+Cyclops: 
+
+A fool art thou, stranger, or art come from afar, seeing that thou biddest me either to fear or to shun the gods. For the Cyclopes reck not of Zeus, who bears the aegis, nor of the blessed gods, since verily we are better far than they. Nor would I, to shun the wrath of Zeus, spare either thee or thy comrades, unless my own heart should bid me. But tell me where thou didst moor thy well-wrought ship on thy coming. Was it haply at a remote part of the land, or close by? I fain would know. 
+
+(TRUTH/LIE)
+>lie
+You quickly think of a lie: 
+
+My ship Poseidon, the earth-shaker, dashed to pieces, casting her upon the rocks at the border of your land; for he brought her close to the headland, and the wind drove her in from the sea. But I, with these men here, escaped utter destruction.
+
+From his pitiless heart he makes no answer, but springs up and puts forth his hands upon your comrades. Two of them at once he seizes and dashes to the earth like puppies, and the brain flows forth upon the ground and wets the earth. Then he cuts them limb from limb and makes ready his supper, and eats them as a mountain-nurtured lion, leaving naught-eats the entrails, and the flesh, and the marrowy bones. And you with wailing held up your hands to Zeus, beholding his cruel deeds; and helplessness possesses you and your comrades souls. But when the Cyclops has filled his huge maw by eating human flesh and thereafter drinking pure milk, he lies down within the cave, stretched out among the sheep. 
+
+You form a plan in your great heart to steal near him, and draw your sharp sword from beside your thigh and smite him in the breast, where the midriff holds the liver, feeling for the place with your hand.
+
+Do you carry out this plan? (Yes/No)
+>no
+A second thought checks you, for right there should you, too, will perish in utter ruin. For you and your comrades are not able to thrust back with your hands from the high door the mighty stone which he had set there. So then, with wailing, you wait for the bright Dawn.
+
+As soon as early Dawn appears, the rosy-fingered, he rekindles the fire and milks his goodly flocks all in turn, and beneath each dam places her young. Then, once he has busily performed his tasks, again he seizes two men at once and makes ready his meal. And when he has made his meal he drives his fat flocks forth from the cave, easily moving away the great door-stone; and then he puts it in place again, as one might set the lid upon a quiver. Then with loud whistling the Cyclops turns his fat flocks toward the mountain.
+
+You are left here, devising evil in the deep of your heart, if in any way you might take vengeance on him, and Athena grant you glory.
+
+That staff over there looks useful, perhaps you could SHARPEN it into a weapon with something?
+
+>sharpen staff with sword
+You file the the staff with the sword.
+
+straightway you take the staff and harden it in the blazing fire. Then you lay it carefully away, hiding it beneath the dung, which lies in great heaps throughout the cave. You bade your comrades to cast lots among them, which of them should have the hardihood with you to lift the stake and grind it into his eye when sweet sleep should come upon him. And the lot falls upon those whom you yourself would fain have chosen; four they are, and you are numbered with them as the fifth. At evening he comes, herding his flocks of goodly fleece, and straightway drives into the wide cave his fat flocks one and all, and leaves not one without in the deep court, either from some foreboding or because a god so bade him. Then he lifts on high and sets in place the great door-stone, and sitting down he milks the ewes and bleating goats all in turn, and beneath each dam he places her young. But when he had busily performed his tasks, again he seizes two men at once and makes ready his supper.
+
+Your plan won't work unless the cyclops is asleep, maybe you are carrying something you can GIVE TO POLYPHEMUS?
+
+>give wine to polyphemus
+Cyclops, take and drink wine after thy meal of human flesh, that thou mayest know what manner of drink this is which our ship contained. It was to thee that I was bringing it as a drink offering, in the hope that, touched with pity, thou mightest send me on my way home; but thou ragest in a way that is past all bearing. Cruel man, how shall any one of all the multitudes of men ever come to thee again hereafter, seeing that thou hast wrought lawlessness?
+
+Cyclops: 
+
+Give it me again with a ready heart, and tell me thy name straightway, that I may give thee a stranger's gift whereat thou mayest be glad. For among the Cyclopes the earth, the giver of grain, bears the rich clusters of wine, and the rain of Zeus gives them increase; but this is a streamlet of ambrosia and nectar. 
+
+Do you give the Cyclops your name? (YES/NO)
+>no
+Cyclops, thou askest me of my glorious name, and I will tell it thee; and do thou give me a stranger's gift, even as thou didst promise. Noman is my name, Noman do they call me-my mother and my father, and all my comrades as well.
+
+The cyclops lies asleep. now is the time to strike! Perhaps STAB THE CYCLOPS WITH SOMETHING.
+
+>stab cyclops with staff
+from his gullet came forth wine and bits of human flesh, and he vomited in his drunken sleep. Then verily I thrust in the stake under the deep ashes until it should grow hot, and heartened all my comrades with cheering words, that I might see no man flinch through fear. But when presently that stake of olive-wood was about to catch fire, green though it was, and began to glow terribly, then verily I drew nigh, bringing the stake from the fire, and my comrades stood round me and a god breathed into us great courage. They took the stake of olive-wood, sharp at the point, and thrust it into his eye, while I, throwing my weight upon it from above, whirled it round, as when a man bores a ship's timber with a drill, while those below keep it spinning with the thong, which they lay hold of by either end, and the drill runs around unceasingly. Even so we took the fiery-pointed stake and whirled it around in his eye, and the blood flowed around the heated thing. And his eyelids wholly and his brows round about did the flame singe as the eyeball burned, and its roots crackled in the fire. And as when a smith dips a great axe or an adze in cold water amid loud hissing to temper it-for therefrom comes the strength of iron-even so did his eye hiss round the stake of olive-wood.
+
+Terribly he cries aloud, and the rock rings around; and you, seizing with terror, shrink back, while he wrenches from his eye the stake, all befouled with blood, and flings it from him, wildly waving his arms. Then he calls aloud to the Cyclopes, who dwell round about him in caves among the windy heights, and they hear his cry and come thronging from every side, and standing around the cave ask him what ailed him: `What so sore distress is thine, Polyphemus, that thou criest out thus through the immortal night, and makest us sleepless? Can it be that some mortal man is driving off thy flocks against thy will, or slaying thee thyself by guile or by might?"
+
+Then from out the cave the mighty Polyphemus answered them: `My friends, it is Noman that is slaying me by guile and not by force."
+
+And they make answer and address him with winged words: `If, then, no man does violence to thee in thy loneliness, sickness which comes from great Zeus thou mayest in no wise escape. Nay, do thou pray to our father, the lord Poseidon."
+
+So they spoke and went their way; and your heart laughs within you that your name and cunning device has so beguiled. But the Cyclops, groaning and travailing in anguish, gropes with his hands and took away the stone from the door, and himself sat in the doorway with arms outstretched in the hope of catching anyone who sought to go forth with the sheep-so witless, forsooth, he thinks in his heart to find you. But you take counsel how all might be the very best, if you might haply find some way of escape from death for your comrades and for yourself.
+
+You need to find some way to hide to escape the cave, the cyclops will only let his sheep out. Perhaps HIDE UNDER something that will be able to leave the cave, because the cyclops will only be able to feel the top of it.
+
+>hide under sheep
+As soon as early Dawn appeared, the rosy-fingered, then the males of the flock hastened forth to pasture and the females bleated unmilked about the pens, for their udders were bursting. And their master, distressed with grievous pains, felt along the backs of all the sheep as they stood up before him, but in his folly he marked not this, that my men were bound beneath the breasts of his fleecy sheep. Last of all the flock the ram went forth, burdened with the weight of his fleece and my cunning self. And mighty Polyphemus, as he felt along his back, spoke to him, saying: `Good ram, why pray is it that thou goest forth thus through the cave the last of the flock? Thou hast not heretofore been wont to lag behind the sheep, but wast ever far the first to feed on the tender bloom of the grass, moving with long strides, and ever the first didst reach the streams of the river, and the first didst long to return to the fold at evening. But now thou art last of all. Surely thou art sorrowing for the eye of thy master, which an evil man blinded along with his miserable fellows, when he had overpowered my wits with wine, even Noman, who, I tell thee, has not yet escaped destruction. If only thou couldst feel as I do, and couldst get thee power of speech to tell me where he skulks away from my wrath, then should his brains be dashed on the ground here and there throughout the cave, when I had smitten him, and my heart should be lightened of the woes which good-for-naught Noman has brought me." So saying, he sent the ram forth from him. And when we had gone a little way from the cave and the court, I first loosed myself from under the ram and set my comrades free. Speedily then we drove off those long-shanked sheep, rich with fat, turning full often to look about until we came to the ship. And welcome to our dear comrades was the sight of us who had escaped death, but for the others they wept and wailed; yet I would not suffer them to weep, but with a frown forbade each man. Rather I bade them to fling on board with speed the many sheep of goodly fleece, and sail over the salt water. So they went on board straightway and sat down upon the benches, and sitting well in order smote the grey sea with their oars. But when I was as far away as a man's voice carries when he shouts, then I spoke to the Cyclops with mocking words: `Cyclops, that man, it seems, was no weakling, whose comrades thou wast minded to devour by brutal strength in thy hollow cave. Full surely were thy evil deeds to fall on thine own head, thou cruel wretch, who didst not shrink from eating thy guests in thine own house. Therefore has Zeus taken vengeance on thee, and the other gods."
+
+>
