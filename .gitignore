@@ -16,8 +16,6 @@
 *.tiff
 Inform
 *Inform\ Map.eps
-KerkerkruipA*
-KerkerkruipS*
-tools/cheapglk
-tools/*git
-tools/*glulxe
+#tools/cheapglk
+#tools/*git
+#tools/*glulxe
