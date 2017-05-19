@@ -1,4 +1,12 @@
-"Odysseus and the Cyclops" by Matt Roper.
+"Odysseus and the Cyclops" by "Matt Roper".
+
+The story headline is "An Interactive Myth.". 
+The story genre is "Myth". 
+The release number is 7. 
+The story description is "Adapted from the story narrated by Homer in his Odyssey." .
+The story creation year is 2017.
+
+
 When play begins: say "You, Odysseus, have beached your ship on a small wooded island. After many weeks of sailing, you and your men are very hungry. You need to find provisions for the rest of the journey back to Greece as you fear you may not have enough."
 
 Understand "leave" as going.
@@ -70,4 +78,5 @@ Polyphemus is a man. Understand "cyclops" and "polyphemus" as Polyphemus.
 The field is east of the beach.
 The field is a room. "Across the rugged landscape of tall pines and crested oaks you see patches of wheat and barley growing in irregular patterns, grapevines climb the walls of nearby rockfaces. You know inhabitants of the island are nearby, you see their smoke and hear goats and sheep belating."
 
-Release along with an interpreter.
+
+Release along with cover art ("Odysseus and the Cyclops.") and an interpreter.
